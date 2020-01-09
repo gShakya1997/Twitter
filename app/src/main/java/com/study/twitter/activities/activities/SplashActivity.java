@@ -1,4 +1,4 @@
-package com.study.twitter.activities;
+package com.study.twitter.activities.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 

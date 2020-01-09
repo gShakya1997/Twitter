@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.registerFragments.SecondStepFragment">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="Customize your experience"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="Track where you see Twitter content across the web"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="Twitter uses this data to personalize your experience. This web browsing history will never be stored with your name, email or phone number."
+        android:textColor="#316363"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="For more details about these setting, visit the"
+            android:textColor="#316363"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/tvHelp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="30dp"
+            android:text="@string/help_center"
+            android:textColor="@color/design_default_color_primary_dark"
+            android:clickable="true"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/bottomPanel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnNext2"
+            android:layout_width="87dp"
+            android:layout_height="43dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/btnshape"
+            android:text="Next"
+            android:textColor="#fff"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.944" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
